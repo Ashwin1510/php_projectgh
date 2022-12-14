@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <?= date('h:i:s A'); ?>
+    <?php
+
+     echo date('h:i:s A');
+     
+    ?>
 </body>
 </html>
