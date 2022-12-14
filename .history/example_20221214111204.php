@@ -15,9 +15,9 @@
 
 		<h2>
 			<?php
-			 echo "This is PHP code inside html<br>";
-             echo  "new line was added to test<br>";
-			 echo  "2nd  line was added to test<br>";
+			 echo "This is PHP code inside html";
+             echo  "new line was added to test";
+			 echo  "2nd  line was added to test";
 			 echo "<br><br>"
 			
 			?>
