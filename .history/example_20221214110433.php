@@ -17,8 +17,7 @@
 			<?php
 			echo "This is PHP code inside html";
             echo  "new line was added to test";
-			echo  "2nd  line was added to test";
-			echo  "3rd line was added to test";
+			echo  "new line was added to test";
 			?>
 		</h2>
 	</center>
