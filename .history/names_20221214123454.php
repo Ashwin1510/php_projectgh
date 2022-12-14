@@ -1,6 +1,7 @@
 <?php
-$names=['raju','jhon', 'james','jery','babu'];
+   $name = ['james','michel','jhon','jery'];
 ?>
+
 
 
 <!DOCTYPE html>
@@ -10,26 +11,21 @@ $names=['raju','jhon', 'james','jery','babu'];
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style>
         .some-names{
             background-color: navy;
-            color: white;
+            color: blanchedalmond;
         }
-        .more-names{
-            background-color: orange;
-        }
-    </style>
 </head>
 <body class="">
     <h1>Names</h1>
-    <ul class="<?= count($names)> 3 ? 'more-names' : 'some-names' ?>">
-        <?php foreach($names as $name){?>
+    <ul>
+        <?php foreach($name as $name){ > ? 'more-names': 'some-names' ?>">
+            <?php foreach($name)
             <li><?=$name ?></li>
-            <?php }  ?>
-
-        
+            <?php }?>
     </ul>
-
-
+    
 </body>
 </html>
