@@ -8,7 +8,7 @@ echo "<hr>";
 
 
 echo "visit to w3school<br>";
-$string1 = file_get_contents("https://www.w3schools.com");
+$string1 = file_get_contents("https://www.w3schools.com/");
 echo $string1;
 
 ?>
