@@ -18,6 +18,8 @@
                explode('Weather Today</h2> (1&ndash;3 days)</div><p class="b-forecast__table-description-content"><span class="phrase">',
                $forecastPage);
 
+               prin
+
             if(sizeof($pageArray) > 1) {
                 $secondPageArray = explode('</span></p></td>', $pageArray[1]);
 

@@ -12,7 +12,7 @@
         }
         else {
             $forecastPage = file_get_contents("https://www.weather-forecast.com/locations/" . 
-                $city . "/forecasts/latest");
+                            $city . "/forecasts/latest");
 
             $pageArray = 
                explode('Weather Today</h2> (1&ndash;3 days)</div><p class="b-forecast__table-description-content"><span class="phrase">',

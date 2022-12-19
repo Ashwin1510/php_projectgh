@@ -55,7 +55,7 @@
         <!-- CSS -->
         <style type="text/css">
             html {
-                background: url('background.jpg') no-repeat center center fixed;
+                background: url('bk.jpg') no-repeat center center fixed;
                 background-size: cover;
             }
 

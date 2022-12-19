@@ -34,7 +34,7 @@
         }//end file headers are NOT empty! :)
     }
     else {
-        $error = "That city could not be found.";
+        $error = "The $city city could not be found.";
     }//end of array key exists test
 ?>
 
@@ -55,7 +55,7 @@
         <!-- CSS -->
         <style type="text/css">
             html {
-                background: url('background.jpg') no-repeat center center fixed;
+                background: url('bk.jpg') no-repeat center center fixed;
                 background-size: cover;
             }
 
